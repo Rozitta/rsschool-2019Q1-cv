@@ -7,10 +7,10 @@
 
 #### Ukraine, Donesk region, c. Mariupol
 
-<p>**tel:** +380972913484
+**tel:** +380972913484
 **email:** rozitta2009@gmail.com
 **skype:** rozitta2009
-**telegram:** @Rozitta007</p>
+**telegram:** @Rozitta007
 
 
 ## Summary:
