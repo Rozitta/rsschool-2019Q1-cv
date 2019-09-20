@@ -3,201 +3,195 @@
 } */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 /* fonts */
 @font-face {
-    font-family: "PTSansCaptionRegular";
-    src: url("../fonts/PTSans/PTSansCaptionRegular.eot");
-    src: url("../fonts/PTSans/PTSansCaptionRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans/PTSansCaptionRegular.woff") format("woff"), url("../fonts/PTSans/PTSansCaptionRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "PTSansCaptionRegular";
+
+  src: url("../fonts/PTSans/PTSansCaptionRegular.eot");
+  src: url("../fonts/PTSans/PTSansCaptionRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans/PTSansCaptionRegular.woff") format("woff"), url("../fonts/PTSans/PTSansCaptionRegular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "PTSansCaptionBold";
-    src: url("../fonts/PTSans/PTSansCaptionBold.eot");
-    src: url("../fonts/PTSans/PTSansCaptionBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans/PTSansCaptionBold.woff") format("woff"), url("../fonts/PTSans/PTSansCaptionBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "PTSansCaptionBold";
+
+  src: url("../fonts/PTSans/PTSansCaptionBold.eot");
+  src: url("../fonts/PTSans/PTSansCaptionBold.eot?#iefix") format("embedded-opentype"), url("../fonts/PTSans/PTSansCaptionBold.woff") format("woff"), url("../fonts/PTSans/PTSansCaptionBold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Baufra-Bold';
-    src: url("../fonts/Baufra/Baufra-Bold.eot");
-    src: local("Baufra-Bold"), url("../fonts/Baufra/Baufra-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Baufra/Baufra-Bold.woff") format("woff"), url("../fonts/Baufra/Baufra-Bold.ttf") format("truetype");
-    font-weight: bold;
-    font-style: normal;
+  font-style: normal;
+  font-weight: bold;
+  font-family: "Baufra-Bold";
+
+  src: url("../fonts/Baufra/Baufra-Bold.eot");
+  src: local("Baufra-Bold"), url("../fonts/Baufra/Baufra-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Baufra/Baufra-Bold.woff") format("woff"), url("../fonts/Baufra/Baufra-Bold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Baufra-Regular';
-    src: url("../fonts/Baufra/Baufra-Regular.woff");
-    src: local("Baufra-Regular"), url("../fonts/Baufra/Baufra-Regular.eot") format("embedded-opentype"), url("../fonts/Baufra/Baufra-Regular.woff") format("woff"), url("../fonts/Baufra/Baufra-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Baufra-Regular";
+
+  src: url("../fonts/Baufra/Baufra-Regular.woff");
+  src: local("Baufra-Regular"), url("../fonts/Baufra/Baufra-Regular.eot") format("embedded-opentype"), url("../fonts/Baufra/Baufra-Regular.woff") format("woff"), url("../fonts/Baufra/Baufra-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Baufra-SemiBold';
-    src: url("../fonts/Baufra/Baufra-SemiBold.eot");
-    src: local("Baufra-SemiBold"), url("../fonts/Baufra/Baufra-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Baufra/Baufra-SemiBold.woff") format("woff"), url("../fonts/Baufra/Baufra-SemiBold.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Baufra-SemiBold";
+
+  src: url("../fonts/Baufra/Baufra-SemiBold.eot");
+  src: local("Baufra-SemiBold"), url("../fonts/Baufra/Baufra-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Baufra/Baufra-SemiBold.woff") format("woff"), url("../fonts/Baufra/Baufra-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Baufra-Medium';
-    src: url("../fonts/Baufra/Baufra-Medium.eot");
-    src: local("Baufra-Medium"), url("../fonts/Baufra/Baufra-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Baufra/Baufra-Medium.woff") format("woff"), url("../fonts/Baufra/Baufra-Medium.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Baufra-Medium";
+
+  src: url("../fonts/Baufra/Baufra-Medium.eot");
+  src: local("Baufra-Medium"), url("../fonts/Baufra/Baufra-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Baufra/Baufra-Medium.woff") format("woff"), url("../fonts/Baufra/Baufra-Medium.ttf") format("truetype");
 }
 
 @media screen and (max-width: 768px) {
-    html {
-        font-size: 15px;
-    }
+  html {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    html {
-        font-size: 13px;
-    }
+  html {
+    font-size: 13px;
+  }
 }
 
-
-
 .container {
-    max-width: 1024px;
-    margin: 0 auto;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 /* header block */
 header {
-    width: 100%;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 .profile-information {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin: 50px auto;
-    max-width: 500px;
-    height: min-content;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 0;
-    bottom: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  height: min-content;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
 }
 
 .profile-photo {
-    display: block;
-    overflow: hidden;
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-    border-radius: 50%;
-    background-color: #fff;
-    pointer-events: none;
-    -webkit-user-select: none;
-    /* user-select -- это нестандартное свойство */
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  overflow: hidden;
 
-    -moz-user-select: none;
-    /* поэтому нужны префиксы */
+  background-color: #ffffff;
+  border-radius: 50%;
 
-    -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 .my-photo {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .profile-info {
-    color: #ffffff;
-    margin: 0 auto;
-    margin-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: 'Baufra-Bold, Arial, Helvetica, sans-serif';
-    font-style: 1.125rem;
-    color: #ffffff;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  font-style: 1.125rem;
+  font-family: "Baufra-Bold", "Arial", "Helvetica", sans-serif;
+  color: #ffffff;
 }
 
 .profesion {
-    color: #88C8FF;
+  color: #88c8ff;
 }
 
 .profile-desc {
-    font-family: "PTSansCaptionRegular, Arial, Helvetica, sans-serif";
-    color: #fcfcfc;
-    margin-top: 35px;
-    text-align: right;
-    font-size: 1.125rem;
+  margin-top: 35px;
+
+  font-size: 1.125rem;
+  font-family: "PTSansCaptionRegular", "Arial", "Helvetica", sans-serif;
+  text-align: right;
+  color: #fcfcfc;
 }
 
 /* arrow */
 .arrowbox {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    position: absolute;
-    bottom: 2.0625rem;
-    right: 50%;
-    width: 68px;
-    height: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+  position: absolute;
+  right: 0;
+  bottom: 2.0625rem;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 68px;
+  height: 0;
+  margin: auto;
 }
 
-.arrow__icon {
-    width: 100%;
-    height: 100%;
-    fill: rgba(255, 255, 255, .5);
-    width:50px; 
-    height:50px;
+.arrow-icon {
+  width: 50px;
+  height: 50px;
+
+  fill: rgba(255, 255, 255, 0.5);
 }
 
-@media(max-width:768px){
-    .arrow__icon {
-        width:40px; 
-        height:40px;  
-    }
+@media (max-width: 768px) {
+  .arrow__icon {
+    width: 40px;
+    height: 40px;
+  }
 }
-
 
 /* main block*/
-
 main {
-    min-height: 1000px;
+  min-height: 1000px;
 }
 
-
-
-
 /* styles from libs */
-#particles-js {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #151019;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
+
+.particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  min-height: 548px;
+
+  background-color: #151019;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
 }

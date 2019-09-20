@@ -6,7 +6,7 @@
   "scripts": {
     "html": "htmlhint *.html",
     "css": "stylelint ./css/*.css",
-    "comb": "csscomb ./css/*.css",
+    "comb": "csscomb ./css/style.css",
     "test": "npm run comb && npm run html && npm run css"
   },
   "author": "",

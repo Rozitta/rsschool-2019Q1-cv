@@ -107,7 +107,7 @@ particlesJS("particles-js", {
 
   // arrow click
   $(document).ready(function() {
-    $(".arrow__link").click(function () {
+    $(".arrow-link").click(function () {
     var elementClick = $(this).attr("href")
     var destination = $(elementClick).offset().top-0;
     jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
