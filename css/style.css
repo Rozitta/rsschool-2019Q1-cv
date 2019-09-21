@@ -352,6 +352,7 @@ blockquote::before {
 /* section experience  */
 .information-block {
   margin-bottom: 50px;
+  padding-left: 29px;
 }
 
 .experience-head {
@@ -392,7 +393,7 @@ blockquote::before {
   width: 7px;
   height: 7px;
 
-  background-color: #3b3b3b;
+  background-color: #D8BFD8;
   border-radius: 50%;
 }
 
@@ -405,7 +406,7 @@ blockquote::before {
     color: #343339;
     min-height: 50px;
     width: auto;
-    background-color: #ebbfbf;
+    background-color: #D8BFD8;
     padding: 5px 15px;
     position: relative
 }

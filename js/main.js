@@ -142,7 +142,7 @@ function startSkillScript(){
       var self = this;
       self.timer = setInterval(function() {
         self.run();	
-      }, 2);
+      }, .6);
     },
     run: function() {
       var self = this;
@@ -151,7 +151,7 @@ function startSkillScript(){
       self.context.clearRect( 0, 0, self.width, self.height );
       self.context.lineWidth = 5;
       self.context.fillStyle = "#000";
-      self.context.strokeStyle = "#ebbfbf";
+      self.context.strokeStyle = "#D8BFD8";
       self.context.textAlign = "center";
       self.context.fillText( self.loaded + "%", self.width * .5, self.height * .5 + 2, self.width );
       self.context.beginPath();
