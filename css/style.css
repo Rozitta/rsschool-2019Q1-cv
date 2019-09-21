@@ -237,6 +237,7 @@ header {
 /* main block*/
 main {
   min-height: 1000px;
+  padding-bottom: 30px;
 }
 
 .main {
@@ -514,9 +515,124 @@ display: block;
       margin: 5px auto;
   }
 
+/* code examples */
+
+.section-examples{
+    width: 250px;
+}
+.examples-arrow{
+    font-family: "PTSansCaptionRegular", "Arial", "Helvetica", sans-serif;
+    color:#D8BFD8;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.portfolio-blog{
+      padding: 0;    
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+     
+}
+.portfolio-site-block{
+    margin-bottom: 50px;
+}
+.portfolio-item{
+    list-style: none;
+    margin-bottom: 12px;
+    line-height: 24px;
+    max-width: 743px;
+   margin: 15px 5px;
+   display: block;
+   font-size: 1.25rem;
+    color: #343339;
+    font-family: "PTSansCaptionRegular", "Arial", "Helvetica", sans-serif;
+  
+}
+.portfolio-site{
+    position: relative;
+    cursor: pointer;
+}
+.portfolio-site::after{
+position: absolute;
+content: '';
+bottom: 0;
+left: 0;
+width: 100%;
+height: 1px;
+background-color: #000000;
+display: block;
+}
+.portfolio-item > span{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.125rem;
+}
+.portfolio-item > a:hover{
+    background-color: #D8BFD8;
+    border: 1px solid #D8BFD8;
+    transition: .8s;
+}
+.portfolio-item > a{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #343339;
+    display: block;
+    width: 150px;
+    min-height: 180px;
+    position: relative;
+    border: 1px solid #9ca6a5;
+    border-radius: 20px;
+    padding: 15px;
+    display: block;
+    
+    text-align: center;
+    font-family: "PTSansCaptionRegular", "Arial", "Helvetica", sans-serif;
+}
+
+.portfolio-item > a > span{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* languages */
+
+.languages-items{
+    position: relative;
+
+  max-width: 743px;
+  margin-bottom: 12px;
+
+  list-style: none;
+  font-size: 1.125rem;
+  line-height: 24px;
+  font-family: "PTSansCaptionRegular", "Arial", "Helvetica", sans-serif;
+  color: #343339;
+}
 
 
+footer{
+    background-color: #222222;
+    height: 80px;
+    width: 100%;
+}
+.footer{
+    
+    font-size: 1rem;
+    font-family: "PTSansCaptionBold", "Arial", "Helvetica", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    max-width: 1024px;
+margin: 0 auto;
 
+}
 /* styles from libs */
 .particles-js {
   position: absolute;
@@ -533,3 +649,5 @@ display: block;
   background-position: 50% 50%;
   background-size: cover;
        }
+
+       
