@@ -190,10 +190,10 @@ header {
   margin: 0;
 }
 
-.location-img {
+/* .location-img {
   width: 30px;
   height: 30px;
-}
+} */
 
 .location-list-info {
   display: inline-block;
@@ -264,7 +264,7 @@ main {
   width: 1px;
   height: 100%;
 
-  background-color: #8d8d8d;
+  background-color: #ccccbb;
 }
 
 .section-header {
@@ -327,7 +327,7 @@ cite {
   font-size: 1rem;
   font-family: "PTSansCaptionBold", "Arial", "Helvetica", sans-serif;
   text-align: right;
-  color: #1b1b1b;
+  color: #222222;
 }
 
 blockquote {
@@ -402,10 +402,10 @@ blockquote::before {
     margin: 0;
     font-size: 1rem;
     font-family: "Roboto Condensed-Bold", "Arial", "Helvetica", sans-serif;
-    color: #7f7f85;
+    color: #343339;
     min-height: 50px;
     width: auto;
-    background-color: #ffe7e7;
+    background-color: #ebbfbf;
     padding: 5px 15px;
     position: relative
 }
@@ -485,8 +485,33 @@ display: block;
 
 }
 
+/* skils */
 
+.bars{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
 
+}
+.bar {
+    display: block;
+    margin: 15px;
+    font-size: 1.25rem;
+      
+  }
+  
+  .bar h3 {
+    margin: 5px 0;
+    font-size: 1.25rem;
+    font-family: "Baufra-SemiBold", "Arial", "Helvetica", sans-serif;
+    color: #262a36;
+    text-align: center;
+  }
+  
+  .bar-circle {
+      display: block;
+      margin: 5px auto;
+  }
 
 
 
