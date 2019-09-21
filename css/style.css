@@ -1,8 +1,5 @@
-/* * {
-    outline: 1px solid red;
-} */
-
 * {
+  outline: 1px solid red;
   box-sizing: border-box;
 }
 
@@ -95,10 +92,7 @@ header {
   flex-direction: column;
   max-width: 500px;
   height: min-content;
-  margin-top: 50px;
-  margin-right: auto;
-  margin-bottom: 50px;
-  margin-left: auto;
+  margin: auto;
 }
 
 .profile-photo {
@@ -122,16 +116,24 @@ header {
 
 .profile-info {
   margin: 0 auto;
-  margin-top: 15px;
+  margin-top: 25px;
   padding-right: 15px;
   padding-left: 15px;
 
-  font-style: 1.125rem;
+  font-size: 1.3125rem;
   font-family: "Baufra-Bold", "Arial", "Helvetica", sans-serif;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
-.profesion {
+.profile-profesion {
+  margin: 0 auto;
+  margin-top: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  font-size: 1.3125rem;
+  font-family: "Baufra-Bold", "Arial", "Helvetica", sans-serif;
   color: #88c8ff;
 }
 
@@ -141,6 +143,32 @@ header {
   font-size: 1.125rem;
   font-family: "PTSansCaptionRegular", "Arial", "Helvetica", sans-serif;
   text-align: right;
+  color: #fcfcfc;
+}
+
+.location-block {
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.location-block > figure {
+  margin: 0;
+}
+
+.location-img {
+  width: 30px;
+  height: 30px;
+}
+
+.location-list-info {
+  display: inline-block;
+  margin-top: 12px;
+
+  font-size: 1rem;
+  font-family: "PTSansCaptionRegular", "Arial", "Helvetica", sans-serif;
+  text-align: center;
   color: #fcfcfc;
 }
 
@@ -178,8 +206,165 @@ main {
   min-height: 1000px;
 }
 
-/* styles from libs */
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
 
+.main-separ {
+  width: 50%;
+  padding: 15px;
+}
+
+.main-separ-left {
+  position: relative;
+}
+
+.main-separ-left::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: block;
+  width: 1px;
+  height: 100%;
+
+  background-color: #8d8d8d;
+}
+
+.section-header {
+  width: 190px;
+  height: 55px;
+  margin: 15px auto 30px;
+
+  border: 1px solid #838c89;
+  border-radius: 35px;
+}
+
+.section-header h2 {
+  margin: 0;
+
+  font-size: 24px;
+  line-height: 55px;
+  font-family: "PTSansCaptionBold", "Arial", "Helvetica", sans-serif;
+  text-align: center;
+  color: #1b1b1b;
+  text-transform: uppercase;
+}
+
+.contact-item-block {
+  display: flex;
+  align-items: center;
+}
+
+.contact-list {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  margin-left: 38px;
+}
+
+.contact-item-info {
+  font-size: 16px;
+  font-family: "PTSansCaptionBold", "Arial", "Helvetica", sans-serif;
+  color: #5b6564;
+}
+
+
+/* section about me */
+
+.about-me {
+  margin-top: 40px;
+}
+
+.about-me-desc {
+  margin: 0;
+  padding: 5px 10px;
+
+  font-size: 1rem;
+  font-family: "PTSansCaptionRegular", "Arial", "Helvetica", sans-serif;
+  color: #5d6663;
+}
+
+cite {
+  display: block;
+  margin-top: 10px;
+
+  font-size: 1rem;
+  font-family: "PTSansCaptionBold", "Arial", "Helvetica", sans-serif;
+  text-align: right;
+  color: #1b1b1b;
+}
+
+blockquote {
+  position: relative;
+
+  margin-right: 25px;
+}
+
+blockquote::before {
+  content: "\201C";
+  position: absolute;
+  top: -19px;
+  left: -34px;
+
+  display: block;
+  padding-left: 10px;
+
+  font-size: 70px;
+  color: #7a7a7a;
+}
+
+/* section experience  */
+.experience {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.experience-head {
+  margin: 0;
+
+  font-size: 1.25rem;
+  font-family: "Baufra-Bold", "Arial", "Helvetica", sans-serif;
+  color: #262a36;
+}
+
+.experience-time {
+  margin: 0;
+
+  font-size: 1rem;
+  font-family: "Baufra-Bold", "Arial", "Helvetica", sans-serif;
+  color: #9ca6a5;
+}
+
+.experience-block ul li {
+  position: relative;
+
+  max-width: 743px;
+  margin-bottom: 12px;
+
+  list-style: none;
+  font-size: 1.125rem;
+  line-height: 24px;
+  font-family: "PTSansCaptionRegular", "Arial", "Helvetica", sans-serif;
+  color: #343339;
+}
+
+.experience-block ul li::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -26px;
+
+  width: 7px;
+  height: 7px;
+
+  background-color: #3b3b3b;
+  border-radius: 50%;
+}
+
+/* styles from libs */
 .particles-js {
   position: absolute;
   top: 0;
